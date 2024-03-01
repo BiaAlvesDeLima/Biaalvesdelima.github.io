@@ -2,7 +2,7 @@
 
 body{
   background-color: #F2F2F2;
-  background-image: url(07a2557f-49fe-421a-a9c0-210f7d0588b0.jpg.png);
+  background-image: url(fundo-novo.jpg);
   height: 900px;
   background-size: cover;
   padding-top: 1px;
@@ -32,7 +32,7 @@ body{
 }
 
 .nav-item:hover {
-  background-color: color-mix(in srgb, violet, white 20%);
+  background-color: color-mix(in srgb, rgb(174, 123, 236), white 20%);
   border-radius: 5px;
 }
 
@@ -112,7 +112,7 @@ h1{
 }
 
 h2{
-  color: hotpink;
+  color: rgb(154, 82, 202);
   font-family: 'Poppins', sans-serif;
   font-size: 2.4em;
 }
@@ -257,7 +257,6 @@ article .header__right .header__image .beatriz {
 }
 
 .skills .skills__content ul li .image-container {
-  background-color: var(--white);
   padding: 2rem;
   border-radius: 50%;
   width: 7rem;
@@ -288,7 +287,7 @@ article .header__right .header__image .beatriz {
 }
 
 #projects ul a{
-  background-color: hotpink;
+  background-color: rgb(175, 91, 235);
   color: white;
   justify-content: space-evenly;
   display: block;
@@ -348,8 +347,8 @@ article .header__right .header__image .beatriz {
 }
 
 footer {
-  background-color: var(--light-tertiary-color);
-  text-align: center;
+ justify-content: center;
+  display: flex;
 }
 
 footer .footer__content {
@@ -363,13 +362,14 @@ footer .footer__content .footer__contact span {
   font-weight: 500;
 }
 
-footer .footer__content ul li {
+footer .footer__content ul li a {
   display: inline-block;
 }
 
 footer .footer__content ul a {
-  display: inline-block;
-  padding: 1rem;
+  display: flex;
+  gap: 16px;
+  justify-content: space-evenly;
 }
 
 footer .footer__content .footer__copyright {
