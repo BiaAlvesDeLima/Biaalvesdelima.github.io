@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200&display=swap');
 
 body{
-  background-color: #000;
+  background-color: #000000;
   height: 900px;
   background-size: cover;
   padding-top: 1px;
@@ -42,7 +42,7 @@ body{
 }
 
 .logo h1 {
-    color: white;
+    color: #000000;
 }
 
 .nav-list ul {
@@ -58,7 +58,7 @@ body{
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: white;
+    color: #000000;
     font-weight: 400;
 }
 
@@ -235,7 +235,7 @@ article .header__left p {
 }
 
 .skills {
-  background-color: var(--light-tertiary-color);
+  background-color: #6959CD;
   scroll-margin-top: 15rem;
 }
 
@@ -286,7 +286,7 @@ article .header__left p {
 
 #projects ul a{
     background-color: rgb(175, 91, 235);
-    color: white;
+    color: #000000;
     justify-content: space-evenly;
     display: block;
     list-style-type: none;
