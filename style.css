@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200&display=swap');
 
 body{
-  background-color: #000000;
+  background-color: #F5F5F5;
   height: 900px;
   background-size: cover;
   padding-top: 1px;
@@ -235,7 +235,7 @@ article .header__left p {
 }
 
 .skills {
-  background-color: #6959CD;
+  background-color: #F5F5F5;
   scroll-margin-top: 15rem;
 }
 
